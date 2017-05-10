@@ -1,0 +1,1540 @@
+    @font-face {
+      font-family: Mayton;
+      src: url(build/css/Mayton.ttf);
+    }
+
+    .slogan {
+    font-family: Mayton;
+    
+    }
+
+    body {
+      font-family: Avenir, Helvetica, sans-serif;
+      margin: auto;
+      overflow-x:hidden;
+    } 
+
+    h1 {
+     font-size: 40px;
+    }
+
+    h2 {
+     font-size: 38px;
+
+    }  
+
+      /* --------------------- * Mobile Phone * ---------------- */ 
+
+    @media only screen and (min-width : 320px) {
+
+    body {
+      font-size: 20px;
+    }
+
+    h3 {
+     font-size: 22px;
+     font-weight: normal;
+
+    }
+
+    h4 {
+
+     font-size: 20px;
+     margin: 10px 0px 10px 10px;
+     padding: 0px;
+
+    }
+
+    a {
+      color: #013548;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #716558;
+      text-decoration: none;
+
+    }
+
+    input[type] {
+      height: 28px;
+      border-radius: 3px;
+      border: 1px solid #777777;
+      padding: 5px 5px 5px 5px;
+      font-size: 15px;
+      width: 300px;
+      font-family: Avenir;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 1px solid #777777;
+      font-size: 14px;
+      width: 310px;
+    }
+
+    input[type="submit"] {
+      height: 52px;
+      width: 153px;
+      font-size: 17px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      padding: 0px;
+      font-family: Avenir;
+
+    }
+
+    input[type="comment"] {
+    height: 52px; */
+    width: 115px;
+    font-size: 17px;
+    border-radius: 2px;
+    border: none;
+    background: #716558;
+    color: white;
+    font-family: Avenir;
+
+    }
+
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 20px 0px 20px 10px;
+    }
+
+    .button1:hover {
+      background: #013548;
+      opacity: 0.80;
+      color: white;
+      cursor: pointer;
+      transition: .5s ease;
+
+    }
+
+    .button2:hover {
+      background: #716558;
+      cursor: pointer;
+      transition: .5s ease;
+    }
+
+    input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+    .header {
+      background-color: #F3E7CD;
+      position: relative;
+      height: 150px;
+
+    }
+
+    .slogan {
+      top: 90px;
+      left: 120px;
+      position: absolute;
+      font-size: 18px;
+      letter-spacing: .05em;
+
+    }
+
+    .cart {
+      top: 50px;
+      right: 60px;
+      position: absolute;
+
+    }
+
+    .cart i {
+      font-size: 28px;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      padding: 5px;
+
+    }
+
+    .add-cart {
+      right: 95px;
+      bottom: 295px;
+      position: relative;
+
+    }
+
+    .add-cart i {
+      font-size: 50px;
+
+    }
+
+    .add-cart a {
+      color: white;
+      text-decoration: none;
+      padding: 5px;
+      text-shadow: 1px 2px 3px #013548;
+
+    }
+
+    .navi {
+      margin: 38px 0px 0px 16px;
+      position: absolute;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #013548;
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+      padding: 0px 10px 1px 10px;
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #716558;
+    }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .logo-header {
+      position: absolute;
+      left: 140px;
+      height: 65px;
+      top: 20px;
+    }
+
+    .logo-footer {
+      position: absolute;
+      left: 100px;
+      height: 235px;
+      top: 25px;
+    }
+
+    .footer {
+      background-color: #013548;
+      position: relative;
+      height: 600px;
+      width: 100%;
+
+    }
+
+    .social-media {
+      top: 290px;
+      left: 20px;
+      position: absolute;
+      color: white;
+      font-family: Mayton;
+      text-align: center;
+      font-size: 30px;
+      margin: 10px;
+
+    }
+
+    .product-page {
+      width: 320px;
+      margin-left: 10px;
+    }
+
+    #item-product {
+      width: 300px;
+      height: 300px;
+
+    }
+
+  .check-out {
+    background-color: #f3e7cd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 315px;
+    }
+
+/* ----- START SOCIAL MEDIA CONNECT PAGE -----*/
+
+    .social-media-main {
+      left: 10px;
+      position: relative;
+      font-size: 20px;
+
+    }
+
+    .social-media-main i {
+      font-size: 30px;
+      transition: ease-in 0.4s;
+      color: #000000;
+      padding: .50em;
+    }
+
+    .social-media-main i:hover {
+      transform: scale(1.50);
+
+    }
+
+/* ----- END SOCIAL MEDIA CONNECT PAGE -----*/
+    
+    .social-media i {
+      font-size: 36px;
+      transition: ease-in 0.4s;
+      color: #FFFFFF;
+      padding: .50em;
+    }
+
+    .social-media i:hover {
+      transform: scale(1.75);
+    }
+
+    table.site-map {
+      top: 420px;
+      left: 16px;
+      position: absolute;
+      font-size: 22px;
+      width: 390px;
+      border-spacing: 8px;
+
+    }
+
+    .site-map a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .site-map a:hover {  
+      color: #716558;
+
+    }
+
+    .foot-note {
+      text-align: center;
+      color: white;
+      margin-top: 510px;
+      font-size: 16px;
+    }
+
+    .banner-first {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .coffee-group {
+      position: relative;
+      width: 355px;
+      margin: auto;
+    }
+
+    .coffee-group2 {
+      position: relative;
+      padding: 8px;
+      margin-left: 20px;
+    }
+
+    #coffee-group-image {
+      position: relative;
+      width: 380px;
+      padding: 10px;
+
+    }
+
+    .item-product {
+      width: 60%;
+      margin: 0px 0px 0px 70px;
+      position: relative;
+      text-align: center;
+    }
+
+    #light-roast {
+      position: absolute;
+      top: 140px;
+      left: 95px;
+    }
+
+    #dark-roast{
+      position: absolute;
+      top: 140px;
+      left: 500px;
+    }
+
+    #products-1 {
+      width: 250px;
+      height: 150px;
+
+    }
+
+    #products-2 {
+      width: 250px;
+      height: 150px;
+
+    }
+
+    #products-3 {
+      width: 250px;
+      height: 150px;
+
+    }
+
+    #item-1 {
+      width: 250px;
+      height: 250px;
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
+      cursor: pointer;
+
+    }
+
+    #gmap_canvas {
+      margin: 0px 0px 20px 0px;
+      height:350px;
+      width:350px;
+
+    }
+
+    .connect {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    #our-story {
+      position: absolute;
+      top: 140px;
+      left: 130px;
+    }
+
+    #donate {
+      position: absolute;
+      top: 360px;
+      left: 130px;
+    }
+
+    #merch {
+      position: absolute;
+      top: 580px;
+      left: 130px;
+    }
+
+    .shop {
+      position: relative;
+      margin: 0px 10px 10px 12%;
+    }
+
+    .shop-coffee {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .shop-types {
+      position: relative;
+      width: 820px;
+      margin: 10px 0px 100px 17%;
+      padding: 20px;
+
+    }
+
+    .shop-item {
+      width:70%;
+      margin:auto;
+      position: relative;
+    }
+
+    #submission {
+      width:70%;
+      margin:50px 0px 70px 17%;
+      position: relative;
+
+    }
+
+
+
+/*  -------- ABOUT US -------*/
+
+    .about {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    .faq {
+      position: relative;
+      margin: 50px 12% 50px 12%;
+    }
+
+    .about-descrip {
+      margin: 10px 100px 10px 10px;
+    }
+
+    .about-shop {
+      position: relative;
+      text-align: center;
+
+    }
+
+    .about-images {
+      position: relative;
+      margin: 0px -0.9% 0px -20%;
+    }
+
+    .image-1 {
+      width: 100%
+    }
+
+    .image-2 {
+      width: 100%;
+    }
+
+    .image-3 {
+      width: 100%
+    }
+
+    .image-4 {
+      width: 100%;
+    }
+
+    .image-5 {
+      width: 100%;
+    }
+
+    .image-6 {
+      width: 100%;
+    }
+
+    #image-hover:hover {
+      transition: .5s ease;
+      opacity: 0.3;
+    }
+
+    #org-donate {
+      margin: 20px 10px 20px 10px;
+      width: 250px;
+      height: 42px;
+      font-size: 14px;
+      font-family: Avenir;
+    }
+
+    #amount-donate {
+      height: 95px;
+      width: 95px;
+      font-size: 22px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      margin: 10px;
+      font-family: Avenir;
+    }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* ----------------  Tablets, iPad  ---------------- */
+    @media only screen and (min-width : 768px) {
+      
+    body {
+    font-size: 24px;
+    }
+
+    h2 {
+     font-size: 44px;
+    }
+
+    h3 {
+     font-size: 25px;
+    }
+
+    h4 {
+
+     font-size: 20px;
+     margin: 10px 0px 10px 10px;
+     padding: 0px;
+
+    }
+
+    a {
+      color: #013548;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #716558;
+      text-decoration: none;
+
+    }
+
+    input[type] {
+      height: 28px;
+      border-radius: 3px;
+      border: 1px solid #777777;
+      padding: 5px 5px 5px 5px;
+      font-size: 15px;
+      width: 660px;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 1px solid #777777;
+      font-size: 14px;
+      width: 660px;
+    }
+
+    input[type="submit"] {
+      height: 52px;
+      width: 183px;
+      font-size: 22px;
+      border: none;
+    }
+
+    input[type="comment"] {
+      height: 44px;
+      width: 100px;
+      font-size: 17px;
+      border-radius: 3px;
+      border: none;
+      background: #013548;
+      font-family: Avenir;
+      margin: 10px 0px 20px 50px;
+
+    }
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 30px 0px 20px 10px;
+    }
+
+    .button1:hover {
+      background: #013548;
+      opacity: 0.80;
+      color: white;
+      cursor: pointer;
+      transition: .5s ease;
+
+    }
+
+    .button2:hover {
+      background: #716558;
+      cursor: pointer;
+      transition: .5s ease;
+    }
+
+    input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+    .header {
+      height: 200px;
+
+    }
+
+    .slogan {
+      top: 60px;
+      left: 230px;
+      position: absolute;
+      font-size: 29px;
+      letter-spacing: .05em;
+
+    }
+
+    .cart {
+      top: 60px;
+      right: 160px;
+      position: absolute;
+
+    }
+
+    .cart i {
+      font-size: 40px;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      padding: 5px;
+
+    }
+
+    .add-cart {
+      right: 220px;
+      top: 7px;
+      position: absolute;
+
+    }
+
+    .add-cart i {
+      font-size: 40px;
+
+    }
+
+    .navi {
+      margin: 57px 0px 0px 100px;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #013548;
+      color: black;
+      text-decoration: none;
+      font-size: 28px;
+      padding: 0px 20px 1px 20px;
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #716558;
+    }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .logo-header {
+    position: absolute;
+    left: 70px;
+    height: 99px;
+    top: 30px;
+    }
+
+    .logo-footer {
+      position: absolute;
+      left: 60px;
+      height: 260px;
+      top: 55px;
+    }
+
+    .footer {
+      background-color: #013548;
+      position: relative;
+      height: 370px;
+      width: 100%;
+      top: 100px;
+
+    }
+
+    .social-media {
+      top: 30px;
+      left: 400px;
+      position: absolute;
+      color: white;
+      font-family: Mayton;
+      text-align: center;
+      font-size: 30px;
+      margin: 10px;
+
+    }
+
+    .product-page {
+      display: table;
+      width: 780px;
+      margin-left: -5px;
+    }
+
+    #item-product {
+      vertical-align: middle;
+      display: table-cell;
+      width: 300px;
+      height: 300px;
+      padding: 20px;
+    }
+    .product-text {
+      vertical-align: middle;
+      display: table-cell;
+
+    }
+
+    .check-out {
+      padding: 25px;
+      width: 680px;
+    }
+
+
+/* ----- START SOCIAL MEDIA CONNECT PAGE -----*/
+
+    .social-media-main {
+      left: 10px;
+      position: relative;
+      font-size: 40px;
+
+    }
+
+    .social-media-main i {
+      font-size: 40px;
+      transition: ease-in 0.4s;
+      color: #000000;
+      padding: .50em;
+    }
+
+    .social-media-main i:hover {
+      transform: scale(1.50);
+
+    }
+
+/* ----- END SOCIAL MEDIA CONNECT PAGE -----*/
+    
+    .social-media i {
+      font-size: 40px;
+    }
+
+    .social-media i:hover {
+      transform: scale(1.75);
+    }
+
+    table.site-map {
+      top: 160px;
+      left: 380px;
+      position: absolute;
+      font-size: 20px;
+      width: 540px;
+      border-spacing: 7px;
+    }
+
+    .site-map a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .site-map a:hover {  
+      color: #716558;
+
+    }
+
+    .foot-note {
+      margin-top: 250px;
+      font-size: 18px;
+    }
+
+    .banner-first {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .coffee-group {
+      position: relative;
+      width: 355px;
+      margin: auto;
+    }
+
+    .coffee-group2 {
+      position: relative;
+      padding: 8px;
+    }
+
+    #coffee-group-image {
+      width: 300px;
+      padding: 2px;
+    }
+
+    .item-product {
+      width: 60%;
+      margin: 0px 0px 0px 70px;
+      position: relative;
+      text-align: center;
+    }
+
+    #light-roast {
+      position: absolute;
+      top: 140px;
+      left: 95px;
+    }
+
+    #dark-roast{
+      position: absolute;
+      top: 140px;
+      left: 500px;
+    }
+
+    .products-1 {
+      position: relative;
+      width: 270px;
+    }
+
+    .products-2 {
+      left: 310px;
+      top: -408px;
+      position: relative;
+      width: 270px;
+    }
+
+    .products-3 {
+      left: 620px;
+      top: -816px;
+      position: relative;
+      width: 270px;
+    }
+
+    #item-1 {
+      width: 300px;
+      height: 300px;
+
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
+      cursor: pointer;
+
+    }
+
+    .connect {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    #our-story {
+      top: 90px;
+      left: 70px;
+    }
+
+    #donate {
+      top: 90px;
+      left: 380px;
+    }
+
+    #merch {
+      top: 90px;
+      left: 700px;
+    }
+
+    .shop {
+      position: relative;
+      margin: 0px 10px 10px 12%;
+    }
+
+    .shop-coffee {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .shop-types {
+      position: relative;
+      width: 820px;
+      margin: 10px 0px 100px 17%;
+      padding: 20px;
+
+    }
+
+    .shop-item {
+      width:70%;
+      margin:auto;
+      position: relative;
+    }
+
+    #submission {
+      width:70%;
+      margin:50px 0px 70px 17%;
+      position: relative;
+
+    }
+
+
+
+/*  -------- ABOUT US -------*/
+
+    .about {
+      position: relative;
+      margin: 10px 10px 10px 12%;
+    }
+
+    .faq {
+      position: relative;
+      margin: 50px 12% 50px 12%;
+    }
+
+    .about-descrip {
+      margin: 10px 100px 10px 10px;
+    }
+
+    .about-shop {
+    height: 270px;
+    width: 915px;
+    padding-bottom: 130px;
+    margin: auto;
+    }
+
+    .about-images {
+      position: relative;
+      margin: 0px -0.9% 0px -20%;
+    }
+
+    .image-1 {
+      width: 100%
+    }
+
+    .image-2 {
+      width: 100%;
+    }
+
+    .image-3 {
+      width: 100%
+    }
+
+    .image-4 {
+      width: 100%;
+    }
+
+    .image-5 {
+      width: 100%;
+    }
+
+    .image-6 {
+      width: 100%;
+    }
+
+    #image-hover:hover {
+      transition: .5s ease;
+      opacity: 0.3;
+    }
+
+    #gmap_canvas {
+      width:100%;
+    }
+
+    #org-donate {
+      margin: 20px 10px 20px 10px;
+      width: 250px;
+      height: 42px;
+      font-size: 14px;
+      font-family: Avenir;
+    }
+
+
+  }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+      /* ----------- Desktops ------------ */
+
+    @media only screen and (min-width : 992px) {
+
+
+    h3 {
+     font-size: 20px;
+    }
+
+    h4 {
+
+     font-size: 20px;
+     margin: 30px 0px 10px 50px;
+     padding: 0px;
+
+    }
+
+    a {
+      color: #013548;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #716558;
+      text-decoration: none;
+
+    }
+
+    input[type] {
+      height: 28px;
+      border-radius: 3px;
+      border: 1px solid #777777;
+      padding: 5px 5px 5px 5px;
+      font-size: 15px;
+      width: 760px;
+    }
+
+    textarea {
+      border-radius: 3px;
+      border: 1px solid #777777;
+      font-size: 14px;
+      resize: none;
+      width: 770px;
+    }
+
+    input[type="submit"] {
+      height: 52px;
+      width: 153px;
+      font-size: 17px;
+      border-radius: 2px;
+      border: none;
+      background: #013548;
+      color: white;
+      padding: 0px;
+      font-family: Avenir;
+
+    }
+
+    input[type="comment"] {
+      height: 44px;
+      width: 100px;
+      font-size: 17px;
+      border-radius: 3px;
+      border: none;
+      background: #013548;
+      font-family: Avenir;
+    }
+
+    input[type="checkbox"] {
+      height: 15px;
+      width: 40px;
+      margin: 20px 0px 20px 50px;
+    }
+
+    .button1:hover {
+      background: #013548;
+      opacity: 0.80;
+      color: white;
+      cursor: pointer;
+      transition: .5s ease;
+
+    }
+
+    .button2:hover {
+      background: #716558;
+      cursor: pointer;
+      transition: .5s ease;
+    }
+
+    input[type="file"] {  
+      height: 48px;
+      font-size: 17px;
+      border: none;
+      width: 42%;
+
+    }
+
+    .header {
+      background-color: #F3E7CD;
+      position: relative;
+      height: 200px;
+
+
+    }
+
+    .slogan {
+      top: 75px;
+      left: 230px;
+      position: absolute;
+      font-size: 30px;
+      letter-spacing: .05em;
+
+    }
+
+    .cart {
+      top: 49px;
+      right: 70px;
+      position: absolute;
+
+    }
+
+    .cart i {
+      font-size: 30px;
+
+    }
+
+    .cart a {
+      color: black;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px;
+
+    }
+
+    .add-cart {
+      right: 250px;
+      top: 7px;
+      position: absolute;
+
+    }
+
+    .navi {
+      top: 99px;
+      right: 70px;
+      position: absolute;
+
+    }
+
+    .navi a {
+      border-bottom: 5px solid #716558;
+      color: black;
+      text-decoration: none;
+      font-size: 20px;
+      padding: 0px 20px 8px 20px;
+      margin: 5px
+    }
+
+    .navi a:hover {  
+      border-bottom: 5px solid #013548;
+    }
+
+    .cart a:hover {
+      color: #716558;
+
+    }
+
+    .logo-header {
+      top: 50px;
+      left: 50px;
+      position: absolute;
+      height: 116px;
+    }
+
+    .logo-footer {
+      top: 50px;
+      left: 50px;
+      position: absolute;
+      height: 200px;
+    }
+
+    .footer {
+      background-color: #013548;
+      position: relative;
+      height: 300px;
+      width: 100%;
+
+    }
+
+    .social-media {
+      top: 100px;
+      left: 840px;
+      position: absolute;
+      color: white;
+      font-family: Mayton;
+      font-size: 30px;
+      margin: 10px;
+
+    }
+
+    .product-page {
+      display: table;
+      width: 860px;
+      margin-left: 30px;
+    }
+
+    #item-product {
+      vertical-align: middle;
+      display: table-cell;
+      width: 300px;
+      height: 300px;
+      padding: 20px;
+    }
+    .product-text {
+      vertical-align: middle;
+      display: table-cell;
+
+    }
+
+    .check-out {
+      padding: 40px;
+      width: 780px;
+    }
+
+/* ----- FIRST SOCIAL MEDIA -----*/
+
+    .social-media-main {
+      left: 40px;
+      position: relative;
+      font-size: 40px;
+
+    }
+
+    .social-media-main i {
+      font-size: 43px;
+      transition: ease-in 0.4s;
+      color: #000000;
+      padding: .50em;
+    }
+
+    .social-media-main i:hover {
+      transform: scale(1.50);
+
+    }
+    
+    .social-media i {
+      font-size: 30px;
+      transition: ease-in 0.4s;
+      color: #FFFFFF;
+      padding: .50em;
+    }
+
+    .social-media i:hover {
+      transform: scale(1.75);
+    }
+
+    table.site-map {
+      top: 100px;
+      left: 300px;
+      position: absolute;
+      font-size: 18px;
+      width: 530px;
+      border-spacing: 8px;
+
+    }
+
+    .site-map a {
+      color: white;
+      text-decoration: none;
+    }
+
+    .site-map a:hover {  
+      color: #716558;
+
+    }
+
+    .foot-note {
+      text-align: center;
+      color: white;
+      margin-top: 180px;
+    }
+
+    .banner-first {
+      width: 100%;
+      margin-top: 10px;
+    }
+
+    .coffee-group {
+      position: relative;
+      width: 848px;
+      margin: 0 auto;
+    }
+
+    .coffee-group2 {
+      width: 1232px;
+      margin: auto;
+    }
+
+    #coffee-group-image {
+      width: 400px;
+
+    }
+
+    .item-product {
+      position: relative;
+      width: 848px;
+      margin: 0 auto;
+    }
+
+    #light-roast {
+      position: absolute;
+      top: 140px;
+      left: 95px;
+    }
+
+    #dark-roast{
+      position: absolute;
+      top: 140px;
+      left: 500px;
+    }
+    
+    .products-1 {
+      position: relative;
+      width: 300px;
+      top: 20px;
+    }
+
+    .products-2 {
+      top: -388px;
+      position: relative;
+      width: 300px;
+    }
+
+    .products-3 {
+      top: -796px;
+      position: relative;
+      width: 300px;
+    }
+
+    #item-1 {
+      width: 300px;
+      height: 300px;
+    }
+
+    .item-hover:hover {
+      transition: .5s ease;
+      opacity: 0.5;
+      cursor: pointer;
+
+    }
+
+    .product-title {
+      font: italic bold 12px;
+    }
+
+    .product-price {
+      font: bold;
+    }
+
+    #gmap_canvas {
+      width:100%;
+    }
+
+    .connect {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    #our-story {
+      position: absolute;
+      top: 130px;
+      left: 130px;
+    }
+
+    #donate {
+      position: absolute;
+      top: 130px;
+      left: 550px;
+    }
+
+    #merch {
+      position: absolute;
+      top: 130px;
+      left: 960px;
+    }
+
+    .shop {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .shop-coffee {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .shop-types {
+      position: relative;
+      width: 820px;
+      margin: 10px 0px 100px 17%;
+      padding: 20px;
+    }
+
+    .shop-item {
+      width:70%;
+      margin:auto;
+      position: relative;
+    }
+
+    #submission {
+      width:70%;
+      margin:50px 0px 70px 17%;
+      position: relative;
+
+    }
+
+
+
+/*  -------- ABOUT US -------*/
+
+    .about {
+      position: relative;
+      margin: 50px 10px 10px 12%;
+    }
+
+    .faq {
+      position: relative;
+      margin: 50px 12% 50px 12%;
+    }
+
+    .about-descrip {
+      margin: 0px 20% 50px 0px;
+    }
+
+    .about-shop {
+      position: relative;
+      margin: auto;
+
+    }
+
+    .about-images {
+      position: relative;
+      margin: 0px -0.9% 0px -20%;
+    }
+
+    .image-1 {
+      width: 100%
+    }
+
+    .image-2 {
+      width: 40%;
+    }
+
+    .image-3 {
+      width: 796px;
+      position: absolute;
+      height: 271px;
+    }
+
+    .image-4 {
+      width: 100%;
+      position: relative;
+    }
+
+    .image-5 {
+      width: 796px;
+      position: absolute;
+      height: 271px;
+    }
+
+    .image-6 {
+      width: 40%;
+      margin-left: 800px;
+    }
+
+    #image-hover:hover {
+      transition: .5s ease;
+      opacity: 0.3;
+    }
+
+    #org-donate {
+      margin: 20px 10px 20px 50px;
+      width: 300px;
+      height: 42px;
+      font-size: 14px;
+      font-family: Avenir;
+    }
+
+
+}
