@@ -2,4 +2,4 @@
 
 Toasted Bean is a fictional coffee shop website. It's contents are linked below:
 
-* [HOME](Toasted-Bean-site/TheToastedBean/build/about-us.html)
+* [HOME](TheToastedBean/build/about-us.html)
